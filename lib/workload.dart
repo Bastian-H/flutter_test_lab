@@ -19,7 +19,7 @@ List<String> generateLargeStrings(int count, int size) {
 }
 
 Future<void> runCpuWorkload(Duration duration) async {
-  int n = 35;
+  int n = 37;
   int result = 0;
   DateTime startTime = DateTime.now();
 
